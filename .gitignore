@@ -1,0 +1,11 @@
+data/
+outputs/
+*.pth
+*.pt
+*.ckpt
+nnunet/nnUNet_raw/
+nnunet/nnUNet_preprocessed/
+nnunet/nnUNet_results/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
