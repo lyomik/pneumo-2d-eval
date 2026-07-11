@@ -1,11 +1,21 @@
+# Datasets and generated artifacts (all reproducible from the scripts)
 data/
 outputs/
+swin_unet/npz_data/
+
+# Upstream repos, cloned per docs/進度記錄.md (they carry their own .git)
+swin_unet/repo/
+medsam/repo/
+
+# Model weights and training runs
 *.pth
 *.pt
 *.ckpt
+swin_unet/checkpoints/
 nnunet/nnUNet_raw/
 nnunet/nnUNet_preprocessed/
 nnunet/nnUNet_results/
+
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
